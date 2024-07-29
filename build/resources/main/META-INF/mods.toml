@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="bedrock_tools_and_armor"
+version="1.0.0"
+displayName="Bedrock Tools And Armor"
+displayURL="https://github.com/LcBert/Bert-Bedrock-tools-and-armor"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="lucab, MCreator"
+description="Powerful bedrock tools and armor"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.bedrock_tools_and_armor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

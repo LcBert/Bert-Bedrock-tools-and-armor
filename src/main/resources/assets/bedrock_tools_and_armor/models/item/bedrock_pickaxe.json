@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bedrock_tools_and_armor:item/bedrock_pickaxe"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "bedrock_tools_and_armor:bedrock_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "bedrock_tools_and_armor:bedrock_pebble"
+  },
+  "result": {
+    "item": "bedrock_tools_and_armor:bedrock_hoe"
+  }
+}

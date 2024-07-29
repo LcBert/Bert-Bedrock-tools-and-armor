@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "bedrock_tools_and_armor:bedrock_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "bedrock_tools_and_armor:bedrock_upgrade_smithing_template",
+    "count": 2
+  }
+}

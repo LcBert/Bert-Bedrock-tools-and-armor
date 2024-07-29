@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Bedrock Tools",
+    "icon": {
+      "value": "Blocks.BEDROCK"
+    },
+    "showSearch": false
+  }
+}
