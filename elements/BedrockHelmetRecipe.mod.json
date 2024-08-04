@@ -20,7 +20,7 @@
       "value": "CUSTOM:BedrockUpgradeSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:BedrockHarmor.helmet"
+      "value": "CUSTOM:BedrockArmor.helmet"
     },
     "name": "bedrock_helmet_smithing",
     "namespace": "mod"

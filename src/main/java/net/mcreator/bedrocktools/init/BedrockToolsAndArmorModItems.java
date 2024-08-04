@@ -16,8 +16,9 @@ import net.mcreator.bedrocktools.item.BedrockShovelItem;
 import net.mcreator.bedrocktools.item.BedrockPickaxeItem;
 import net.mcreator.bedrocktools.item.BedrockPebbleItem;
 import net.mcreator.bedrocktools.item.BedrockHoeItem;
-import net.mcreator.bedrocktools.item.BedrockHarmorItem;
 import net.mcreator.bedrocktools.item.BedrockAxeItem;
+import net.mcreator.bedrocktools.item.BedrockArmorItem;
+import net.mcreator.bedrocktools.item.BedrockAmuletItem;
 import net.mcreator.bedrocktools.BedrockToolsAndArmorMod;
 
 public class BedrockToolsAndArmorModItems {
@@ -27,12 +28,13 @@ public class BedrockToolsAndArmorModItems {
 	public static final RegistryObject<Item> BEDROCK_AXE = REGISTRY.register("bedrock_axe", () -> new BedrockAxeItem());
 	public static final RegistryObject<Item> BEDROCK_SHOVEL = REGISTRY.register("bedrock_shovel", () -> new BedrockShovelItem());
 	public static final RegistryObject<Item> BEDROCK_HOE = REGISTRY.register("bedrock_hoe", () -> new BedrockHoeItem());
-	public static final RegistryObject<Item> BEDROCK_HARMOR_HELMET = REGISTRY.register("bedrock_harmor_helmet", () -> new BedrockHarmorItem.Helmet());
-	public static final RegistryObject<Item> BEDROCK_HARMOR_CHESTPLATE = REGISTRY.register("bedrock_harmor_chestplate", () -> new BedrockHarmorItem.Chestplate());
-	public static final RegistryObject<Item> BEDROCK_HARMOR_LEGGINGS = REGISTRY.register("bedrock_harmor_leggings", () -> new BedrockHarmorItem.Leggings());
-	public static final RegistryObject<Item> BEDROCK_HARMOR_BOOTS = REGISTRY.register("bedrock_harmor_boots", () -> new BedrockHarmorItem.Boots());
 	public static final RegistryObject<Item> BEDROCK_UPGRADE_SMITHING_TEMPLATE = REGISTRY.register("bedrock_upgrade_smithing_template", () -> new BedrockUpgradeSmithingTemplateItem());
 	public static final RegistryObject<Item> BEDROCK_PEBBLE = REGISTRY.register("bedrock_pebble", () -> new BedrockPebbleItem());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_HELMET = REGISTRY.register("bedrock_armor_helmet", () -> new BedrockArmorItem.Helmet());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_CHESTPLATE = REGISTRY.register("bedrock_armor_chestplate", () -> new BedrockArmorItem.Chestplate());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_LEGGINGS = REGISTRY.register("bedrock_armor_leggings", () -> new BedrockArmorItem.Leggings());
+	public static final RegistryObject<Item> BEDROCK_ARMOR_BOOTS = REGISTRY.register("bedrock_armor_boots", () -> new BedrockArmorItem.Boots());
+	public static final RegistryObject<Item> BEDROCK_AMULET = REGISTRY.register("bedrock_amulet", () -> new BedrockAmuletItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

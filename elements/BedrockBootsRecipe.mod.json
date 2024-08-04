@@ -20,7 +20,7 @@
       "value": "CUSTOM:BedrockUpgradeSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:BedrockHarmor.boots"
+      "value": "CUSTOM:BedrockArmor.boots"
     },
     "name": "bedrock_boots_smithing",
     "namespace": "mod"

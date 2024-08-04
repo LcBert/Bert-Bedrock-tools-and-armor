@@ -20,7 +20,7 @@
       "value": "CUSTOM:BedrockUpgradeSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:BedrockHarmor.body"
+      "value": "CUSTOM:BedrockArmor.body"
     },
     "name": "bedrock_chestplate_smithing",
     "namespace": "mod"

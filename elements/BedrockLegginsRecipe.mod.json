@@ -20,7 +20,7 @@
       "value": "CUSTOM:BedrockUpgradeSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:BedrockHarmor.legs"
+      "value": "CUSTOM:BedrockArmor.legs"
     },
     "name": "bedrock_leggins_smithing",
     "namespace": "mod"

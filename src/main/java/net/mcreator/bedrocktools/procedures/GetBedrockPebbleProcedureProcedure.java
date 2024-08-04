@@ -40,23 +40,23 @@ public class GetBedrockPebbleProcedureProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem() && blockstate.getBlock() == Blocks.OBSIDIAN
-				&& (world.getBlockState(BlockPos.containing(x, y - 2, z))).getBlock() == Blocks.BEDROCK && (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.AIR) {
+		if (blockstate.getBlock() == Blocks.OBSIDIAN && (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()
+				&& (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.AIR && (world.getBlockState(BlockPos.containing(x, y - 2, z))).getBlock() == Blocks.BEDROCK) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(BlockPos.containing(x, y - 1, z), Blocks.OBSIDIAN.defaultBlockState(), 3);
-			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 30, 0.3, 0.3, 0.3, 0.5);
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.AMBIENT, 1, 1);
-				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.AMBIENT, 1, 1, false);
-				}
-			}
 			if (world instanceof ServerLevel _level) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_PEBBLE.get()));
+				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y - 1), (z + 0.5), new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_PEBBLE.get()));
 				entityToSpawn.setPickUpDelay(10);
 				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles(ParticleTypes.FLAME, (x + 0.5), (y - 1), (z + 0.5), 100, 0.3, 0.3, 0.3, 0.5);
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x + 0.5, y + 0.5, z + 0.5), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.AMBIENT, 1, 1);
+				} else {
+					_level.playLocalSound((x + 0.5), (y + 0.5), (z + 0.5), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.AMBIENT, 1, 1, false);
+				}
 			}
 		}
 	}

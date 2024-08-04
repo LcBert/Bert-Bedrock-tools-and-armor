@@ -23,6 +23,12 @@ description="Powerful bedrock tools and armor"
     side="BOTH"
 
 
+[[dependencies.bedrock_tools_and_armor]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

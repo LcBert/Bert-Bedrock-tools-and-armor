@@ -1,0 +1,15 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:BedrockPebble"
+      }
+    ],
+    "information": [
+      "The main material of bedrock tools",
+      "To obtain simply right-click obsidian 2 block above  bedrock"
+    ]
+  }
+}
