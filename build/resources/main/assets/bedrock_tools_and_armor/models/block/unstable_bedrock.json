@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bedrock_tools_and_armor:block/unstable_bedrock",
+    "particle": "bedrock_tools_and_armor:block/unstable_bedrock"
+  },
+  "render_type": "solid"
+}

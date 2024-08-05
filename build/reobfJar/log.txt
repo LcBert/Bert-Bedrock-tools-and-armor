@@ -137,6 +137,7 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/UnstableBedrockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -151,6 +152,7 @@ Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
@@ -184,9 +186,13 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   META-INF/mods.toml
   assets/
   assets/bedrock_tools_and_armor/
+  assets/bedrock_tools_and_armor/blockstates/
+  assets/bedrock_tools_and_armor/blockstates/unstable_bedrock.json
   assets/bedrock_tools_and_armor/lang/
   assets/bedrock_tools_and_armor/lang/en_us.json
   assets/bedrock_tools_and_armor/models/
+  assets/bedrock_tools_and_armor/models/block/
+  assets/bedrock_tools_and_armor/models/block/unstable_bedrock.json
   assets/bedrock_tools_and_armor/models/item/
   assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json
   assets/bedrock_tools_and_armor/models/item/bedrock_armor_boots.json
@@ -200,7 +206,10 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/models/item/bedrock_shovel.json
   assets/bedrock_tools_and_armor/models/item/bedrock_sword.json
   assets/bedrock_tools_and_armor/models/item/bedrock_upgrade_smithing_template.json
+  assets/bedrock_tools_and_armor/models/item/unstable_bedrock.json
   assets/bedrock_tools_and_armor/textures/
+  assets/bedrock_tools_and_armor/textures/block/
+  assets/bedrock_tools_and_armor/textures/block/unstable_bedrock.png
   assets/bedrock_tools_and_armor/textures/item/
   assets/bedrock_tools_and_armor/textures/item/bedrock_amulet.png
   assets/bedrock_tools_and_armor/textures/item/bedrock_axe.png
@@ -219,14 +228,15 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/textures/models/armor/
   assets/bedrock_tools_and_armor/textures/models/armor/bedrockarmortexture__layer_1.png
   assets/bedrock_tools_and_armor/textures/models/armor/bedrockarmortexture__layer_2.png
-  assets/bedrock_tools_and_armor/textures/screens/
-  assets/bedrock_tools_and_armor/textures/screens/bedrock_amulet_bauble_slot_icon.png
   assets/curios/
   assets/curios/textures/
   assets/curios/textures/slot/
   assets/curios/textures/slot/bedrock_amulet_bauble_slot_icon.png
   data/
   data/bedrock_tools_and_armor/
+  data/bedrock_tools_and_armor/loot_tables/
+  data/bedrock_tools_and_armor/loot_tables/blocks/
+  data/bedrock_tools_and_armor/loot_tables/blocks/unstable_bedrock.json
   data/bedrock_tools_and_armor/recipes/
   data/bedrock_tools_and_armor/recipes/bedrock_amulet_recipe.json
   data/bedrock_tools_and_armor/recipes/bedrock_axe_smithing.json
@@ -239,6 +249,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/bedrock_tools_and_armor/recipes/bedrock_shovel_smithing.json
   data/bedrock_tools_and_armor/recipes/bedrock_smithing_template_recipe.json
   data/bedrock_tools_and_armor/recipes/bedrock_sword_smithing.json
+  data/bedrock_tools_and_armor/recipes/unstable_bedrock_recipe.json
   data/curios/
   data/curios/tags/
   data/curios/tags/items/
@@ -248,6 +259,9 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/minecraft/loot_tables/chests/
   data/minecraft/loot_tables/chests/ancient_city.json
   data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/pickaxe.json
   data/minecraft/tags/items/
   data/minecraft/tags/items/axes.json
   data/minecraft/tags/items/hoes.json
@@ -259,7 +273,10 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/
   net/mcreator/bedrocktools/
   net/mcreator/bedrocktools/BedrockToolsAndArmorMod.class
+  net/mcreator/bedrocktools/block/
+  net/mcreator/bedrocktools/block/UnstableBedrockBlock.class
   net/mcreator/bedrocktools/init/
+  net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBlocks.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBrewingRecipes.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModCuriosProperties.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModCuriosRenderers.class

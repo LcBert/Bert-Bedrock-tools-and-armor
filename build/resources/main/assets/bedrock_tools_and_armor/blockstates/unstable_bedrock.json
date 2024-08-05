@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bedrock_tools_and_armor:block/unstable_bedrock"
+    }
+  }
+}

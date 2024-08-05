@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bedrock_tools_and_armor:bedrock_pebble"
+    }
+  },
+  "result": {
+    "item": "bedrock_tools_and_armor:unstable_bedrock",
+    "count": 1
+  }
+}

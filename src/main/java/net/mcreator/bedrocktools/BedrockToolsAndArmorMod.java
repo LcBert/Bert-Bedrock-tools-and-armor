@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModTabs;
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModItems;
+import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class BedrockToolsAndArmorMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BedrockToolsAndArmorModBlocks.REGISTRY.register(bus);
 
 		BedrockToolsAndArmorModItems.REGISTRY.register(bus);
 

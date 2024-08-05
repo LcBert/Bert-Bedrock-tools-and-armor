@@ -362,11 +362,44 @@
         ]
       },
       "path": "~/Item"
+    },
+    {
+      "name": "UnstableBedrock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unstable_bedrock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bedrocktools/block/UnstableBedrockBlock.java",
+          "src/main/resources/assets/bedrock_tools_and_armor/models/block/unstable_bedrock.json",
+          "src/main/resources/data/bedrock_tools_and_armor/loot_tables/blocks/unstable_bedrock.json",
+          "src/main/resources/assets/bedrock_tools_and_armor/models/item/unstable_bedrock.json",
+          "src/main/resources/assets/bedrock_tools_and_armor/blockstates/unstable_bedrock.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "UnstableBedrockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unstable_bedrock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bedrock_tools_and_armor/recipes/unstable_bedrock_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:UnstableBedrock"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:BedrockPickaxe"
     ],
@@ -391,8 +424,9 @@
       "BedrockShovel",
       "BedrockHoe",
       "BedrockArmor",
-      "BedrockUpgradeSmithingTemplate",
       "BedrockPebble",
+      "UnstableBedrock",
+      "BedrockUpgradeSmithingTemplate",
       "BedrockAmulet"
     ]
   },
@@ -400,9 +434,9 @@
     "en_us": {
       "item.bedrock_tools_and_armor.bedrock_armor_chestplate": "Bedrock Chestplate",
       "item.bedrock_tools_and_armor.bedrock_armor_leggings": "Bedrock Leggings",
-      "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
-      "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
       "item.bedrock_tools_and_armor.bedrock_axe": "Bedrock Axe",
+      "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
+      "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
       "item.bedrock_tools.bedrock_axe": "Bedrock Axe",
       "item_group.bedrock_tools.bedrock_tools_creative_tab": "Bedrock Tools",
       "item.bedrock_tools.bedrock_harmor_leggings": "Bedrock Leggings",
@@ -413,11 +447,12 @@
       "item.bedrock_tools_and_armor.bedrock_pebble": "Bedrock Pebble",
       "item.bedrock_tools.bedrock_sword": "Bedrock Sword",
       "item.bedrock_tools_and_armor.bedrock_sword": "Bedrock Sword",
+      "block.bedrock_tools_and_armor.unstable_bedrock": "Unstable Bedrock",
       "item.bedrock_tools.bedrock_shovel": "Bedrock Shovel",
       "item.bedrock_tools_and_armor.bedrock_armor_helmet": "Bedrock Helmet",
       "item.bedrock_tools_and_armor.bedrock_amulet": "Bedrock Amulet",
       "item.bedrock_tools.bedrock_harmor_chestplate": "Bedrock Chestplate",
-      "item.bedrock_tools_and_armor.bedrock_upgrade_smithing_template": "Bedrock Upgrade Smithing Template",
+      "item.bedrock_tools_and_armor.bedrock_upgrade_smithing_template": "Smithing Template",
       "item.bedrock_tools_and_armor.bedrock_hoe": "Bedrock Hoe",
       "item.bedrock_tools.bedrock_hoe": "Bedrock Hoe",
       "item.bedrock_tools.bedrock_pickaxe": "Bedrock Pickaxe",
@@ -447,13 +482,17 @@
       {
         "name": "Procedure",
         "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "bedrock_tools_and_armor",
     "modName": "Bedrock Tools And Armor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Powerful bedrock tools and armor",
     "author": "lucab, MCreator",
     "websiteURL": "https://github.com/LcBert/Bert-Bedrock-tools-and-armor",

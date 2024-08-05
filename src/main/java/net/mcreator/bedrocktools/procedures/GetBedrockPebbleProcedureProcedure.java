@@ -21,6 +21,7 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModItems;
+import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -44,6 +45,7 @@ public class GetBedrockPebbleProcedureProcedure {
 				&& (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.AIR && (world.getBlockState(BlockPos.containing(x, y - 2, z))).getBlock() == Blocks.BEDROCK) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(BlockPos.containing(x, y - 1, z), Blocks.OBSIDIAN.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y - 2, z), BedrockToolsAndArmorModBlocks.UNSTABLE_BEDROCK.get().defaultBlockState(), 3);
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y - 1), (z + 0.5), new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_PEBBLE.get()));
 				entityToSpawn.setPickUpDelay(10);

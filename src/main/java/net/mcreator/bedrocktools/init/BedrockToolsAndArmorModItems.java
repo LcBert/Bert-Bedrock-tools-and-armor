@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.bedrocktools.item.BedrockUpgradeSmithingTemplateItem;
 import net.mcreator.bedrocktools.item.BedrockSwordItem;
@@ -35,6 +37,11 @@ public class BedrockToolsAndArmorModItems {
 	public static final RegistryObject<Item> BEDROCK_ARMOR_LEGGINGS = REGISTRY.register("bedrock_armor_leggings", () -> new BedrockArmorItem.Leggings());
 	public static final RegistryObject<Item> BEDROCK_ARMOR_BOOTS = REGISTRY.register("bedrock_armor_boots", () -> new BedrockArmorItem.Boots());
 	public static final RegistryObject<Item> BEDROCK_AMULET = REGISTRY.register("bedrock_amulet", () -> new BedrockAmuletItem());
+	public static final RegistryObject<Item> UNSTABLE_BEDROCK = block(BedrockToolsAndArmorModBlocks.UNSTABLE_BEDROCK);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }
