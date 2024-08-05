@@ -391,8 +391,8 @@
       "BedrockShovel",
       "BedrockHoe",
       "BedrockArmor",
-      "BedrockUpgradeSmithingTemplate",
       "BedrockPebble",
+      "BedrockUpgradeSmithingTemplate",
       "BedrockAmulet"
     ]
   },
@@ -400,9 +400,9 @@
     "en_us": {
       "item.bedrock_tools_and_armor.bedrock_armor_chestplate": "Bedrock Chestplate",
       "item.bedrock_tools_and_armor.bedrock_armor_leggings": "Bedrock Leggings",
-      "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
-      "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
       "item.bedrock_tools_and_armor.bedrock_axe": "Bedrock Axe",
+      "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
+      "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
       "item.bedrock_tools.bedrock_axe": "Bedrock Axe",
       "item_group.bedrock_tools.bedrock_tools_creative_tab": "Bedrock Tools",
       "item.bedrock_tools.bedrock_harmor_leggings": "Bedrock Leggings",
@@ -417,7 +417,7 @@
       "item.bedrock_tools_and_armor.bedrock_armor_helmet": "Bedrock Helmet",
       "item.bedrock_tools_and_armor.bedrock_amulet": "Bedrock Amulet",
       "item.bedrock_tools.bedrock_harmor_chestplate": "Bedrock Chestplate",
-      "item.bedrock_tools_and_armor.bedrock_upgrade_smithing_template": "Bedrock Upgrade Smithing Template",
+      "item.bedrock_tools_and_armor.bedrock_upgrade_smithing_template": "Smithing Template",
       "item.bedrock_tools_and_armor.bedrock_hoe": "Bedrock Hoe",
       "item.bedrock_tools.bedrock_hoe": "Bedrock Hoe",
       "item.bedrock_tools.bedrock_pickaxe": "Bedrock Pickaxe",
@@ -453,7 +453,7 @@
   "workspaceSettings": {
     "modid": "bedrock_tools_and_armor",
     "modName": "Bedrock Tools And Armor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Powerful bedrock tools and armor",
     "author": "lucab, MCreator",
     "websiteURL": "https://github.com/LcBert/Bert-Bedrock-tools-and-armor",

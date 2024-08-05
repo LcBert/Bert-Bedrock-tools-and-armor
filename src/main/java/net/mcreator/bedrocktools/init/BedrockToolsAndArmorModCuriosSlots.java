@@ -13,6 +13,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class BedrockToolsAndArmorModCuriosSlots {
 	@SubscribeEvent
 	public static void enqueueIMC(final InterModEnqueueEvent event) {
-		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> SlotTypePreset.CURIO.getMessageBuilder().size(1).build());
+		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> SlotTypePreset.CHARM.getMessageBuilder().size(1).build());
 	}
 }

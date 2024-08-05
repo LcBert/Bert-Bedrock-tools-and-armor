@@ -242,7 +242,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/curios/
   data/curios/tags/
   data/curios/tags/items/
-  data/curios/tags/items/curio.json
+  data/curios/tags/items/charm.json
   data/minecraft/
   data/minecraft/loot_tables/
   data/minecraft/loot_tables/chests/

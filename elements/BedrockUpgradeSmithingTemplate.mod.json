@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Bedrock Upgrade Smithing Template",
+    "name": "Smithing Template",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -29,7 +29,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§7Bedrock Upgrade",
+        "",
+        "§7Applies to:",
+        " §9Netherite Equipment",
+        "§7Ingredients",
+        " §9Bedrock Pebble"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
