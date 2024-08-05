@@ -19,7 +19,7 @@
     ],
     "efficiency": 30.0,
     "attackSpeed": 1.0,
-    "enchantability": 0,
+    "enchantability": 15,
     "damageVsEntity": 7.5,
     "usageCount": 0,
     "glowCondition": {
@@ -29,7 +29,7 @@
     "immuneToFire": true,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false
   }
 }

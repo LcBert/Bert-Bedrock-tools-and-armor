@@ -325,20 +325,6 @@
       "path": "~/Procedure"
     },
     {
-      "name": "BedrockAmulet",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrock_amulet",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json",
-          "src/main/java/net/mcreator/bedrocktools/item/BedrockAmuletItem.java"
-        ]
-      },
-      "path": "~/Item"
-    },
-    {
       "name": "BedrockAmuletRecipe",
       "type": "recipe",
       "compiles": true,
@@ -361,21 +347,21 @@
         "files": [
           "src/main/resources/data/minecraft/loot_tables/chests/ancient_city.json"
         ]
-      },
-      "path": "~/Recipe"
+      }
     },
     {
-      "name": "G",
-      "type": "loottable",
+      "name": "BedrockAmulet",
+      "type": "curiosbauble",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "g",
+      "registry_name": "bedrock_amulet",
       "metadata": {
         "files": [
-          "src/main/resources/data/minecraft/loot_tables/g.json"
+          "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json",
+          "src/main/java/net/mcreator/bedrocktools/item/BedrockAmuletItem.java"
         ]
       },
-      "path": "~/Recipe"
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -405,9 +391,9 @@
       "BedrockShovel",
       "BedrockHoe",
       "BedrockArmor",
-      "BedrockAmulet",
       "BedrockUpgradeSmithingTemplate",
-      "BedrockPebble"
+      "BedrockPebble",
+      "BedrockAmulet"
     ]
   },
   "language_map": {
@@ -478,6 +464,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "curios_api",
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",

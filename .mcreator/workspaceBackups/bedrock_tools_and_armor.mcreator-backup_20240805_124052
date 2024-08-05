@@ -315,23 +315,14 @@
         "files": [
           "src/main/java/net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure.java"
         ],
-        "dependencies": []
-      },
-      "path": "~/Procedure"
-    },
-    {
-      "name": "BedrockAmulet",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrock_amulet",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json",
-          "src/main/java/net/mcreator/bedrocktools/item/BedrockAmuletItem.java"
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       },
-      "path": "~/Item"
+      "path": "~/Procedure"
     },
     {
       "name": "BedrockAmuletRecipe",
@@ -345,6 +336,32 @@
         ]
       },
       "path": "~/Recipe"
+    },
+    {
+      "name": "AncientCityBedrockSmithingTemplateLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ancient_city_bedrock_smithing_template_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/ancient_city.json"
+        ]
+      }
+    },
+    {
+      "name": "BedrockAmulet",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_amulet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json",
+          "src/main/java/net/mcreator/bedrocktools/item/BedrockAmuletItem.java"
+        ]
+      },
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -374,9 +391,9 @@
       "BedrockShovel",
       "BedrockHoe",
       "BedrockArmor",
-      "BedrockAmulet",
       "BedrockUpgradeSmithingTemplate",
-      "BedrockPebble"
+      "BedrockPebble",
+      "BedrockAmulet"
     ]
   },
   "language_map": {
@@ -447,6 +464,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "curios_api",
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",

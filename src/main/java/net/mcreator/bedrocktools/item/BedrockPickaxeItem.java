@@ -4,6 +4,7 @@ package net.mcreator.bedrocktools.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 public class BedrockPickaxeItem extends PickaxeItem {
@@ -26,12 +27,22 @@ public class BedrockPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
 		}, 1, -2.8f, new Item.Properties().fireResistant());
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		return new ItemStack(this);
 	}
 }

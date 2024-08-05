@@ -325,20 +325,6 @@
       "path": "~/Procedure"
     },
     {
-      "name": "BedrockAmulet",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrock_amulet",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json",
-          "src/main/java/net/mcreator/bedrocktools/item/BedrockAmuletItem.java"
-        ]
-      },
-      "path": "~/Item"
-    },
-    {
       "name": "BedrockAmuletRecipe",
       "type": "recipe",
       "compiles": true,
@@ -361,8 +347,21 @@
         "files": [
           "src/main/resources/data/minecraft/loot_tables/chests/ancient_city.json"
         ]
+      }
+    },
+    {
+      "name": "BedrockAmulet",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_amulet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json",
+          "src/main/java/net/mcreator/bedrocktools/item/BedrockAmuletItem.java"
+        ]
       },
-      "path": "~/Recipe"
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -392,18 +391,18 @@
       "BedrockShovel",
       "BedrockHoe",
       "BedrockArmor",
-      "BedrockAmulet",
       "BedrockUpgradeSmithingTemplate",
-      "BedrockPebble"
+      "BedrockPebble",
+      "BedrockAmulet"
     ]
   },
   "language_map": {
     "en_us": {
       "item.bedrock_tools_and_armor.bedrock_armor_chestplate": "Bedrock Chestplate",
       "item.bedrock_tools_and_armor.bedrock_armor_leggings": "Bedrock Leggings",
-      "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
-      "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
       "item.bedrock_tools_and_armor.bedrock_axe": "Bedrock Axe",
+      "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
+      "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
       "item.bedrock_tools.bedrock_axe": "Bedrock Axe",
       "item_group.bedrock_tools.bedrock_tools_creative_tab": "Bedrock Tools",
       "item.bedrock_tools.bedrock_harmor_leggings": "Bedrock Leggings",
@@ -465,6 +464,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "curios_api",
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",

@@ -1,5 +1,7 @@
 package net.mcreator.bedrocktools.procedures;
 
+import top.theillusivec4.curios.api.CuriosApi;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -35,6 +37,7 @@ public class SlownessWithArmorProcedure {
 		if (entity == null)
 			return;
 		double armor_count = 0;
+		boolean have_amulet = false;
 		if (entity instanceof Player) {
 			if (new Object() {
 				public boolean checkGamemode(Entity _ent) {
@@ -57,7 +60,13 @@ public class SlownessWithArmorProcedure {
 					return false;
 				}
 			}.checkGamemode(entity)) {
-				if (!(entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get())) : false)) {
+				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get())) : false) {
+					have_amulet = true;
+				}
+				if (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get(), lv).isPresent() : false) {
+					have_amulet = true;
+				}
+				if (!have_amulet) {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == BedrockToolsAndArmorModItems.BEDROCK_ARMOR_HELMET.get()) {
 						armor_count = armor_count + 1;
 					}
@@ -75,6 +84,7 @@ public class SlownessWithArmorProcedure {
 							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, (int) (armor_count - 1), false, false));
 					}
 					armor_count = 0;
+					have_amulet = false;
 				}
 			}
 		}
