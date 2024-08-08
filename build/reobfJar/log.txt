@@ -137,7 +137,18 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/bedrocktools/block/UnstableBedrockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BrokenBedrockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/canCraftInDimensions(II)Z from net/minecraft/world/item/crafting/Recipe/canCraftInDimensions(II)Z: canCraftInDimensions -> m_8004_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: getResultItem -> m_8043_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getIngredients()Lnet/minecraft/core/NonNullList; from net/minecraft/world/item/crafting/Recipe/getIngredients()Lnet/minecraft/core/NonNullList;: getIngredients -> m_7527_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/matches(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Z from net/minecraft/world/item/crafting/Recipe/matches(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Z: matches -> m_5818_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getId()Lnet/minecraft/resources/ResourceLocation; from net/minecraft/world/item/crafting/Recipe/getId()Lnet/minecraft/resources/ResourceLocation;: getId -> m_6423_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: assemble -> m_5874_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getType()Lnet/minecraft/world/item/crafting/RecipeType; from net/minecraft/world/item/crafting/Recipe/getType()Lnet/minecraft/world/item/crafting/RecipeType;: getType -> m_6671_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer; from net/minecraft/world/item/crafting/Recipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;: getSerializer -> m_7707_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe;: fromJson -> m_6729_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe;: fromNetwork -> m_8005_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V from net/minecraft/world/item/crafting/RecipeSerializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V: toNetwork -> m_6178_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -146,13 +157,13 @@ Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorIt
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
@@ -187,12 +198,12 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/
   assets/bedrock_tools_and_armor/
   assets/bedrock_tools_and_armor/blockstates/
-  assets/bedrock_tools_and_armor/blockstates/unstable_bedrock.json
+  assets/bedrock_tools_and_armor/blockstates/broken_bedrock.json
   assets/bedrock_tools_and_armor/lang/
   assets/bedrock_tools_and_armor/lang/en_us.json
   assets/bedrock_tools_and_armor/models/
   assets/bedrock_tools_and_armor/models/block/
-  assets/bedrock_tools_and_armor/models/block/unstable_bedrock.json
+  assets/bedrock_tools_and_armor/models/block/broken_bedrock.json
   assets/bedrock_tools_and_armor/models/item/
   assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json
   assets/bedrock_tools_and_armor/models/item/bedrock_armor_boots.json
@@ -206,7 +217,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/models/item/bedrock_shovel.json
   assets/bedrock_tools_and_armor/models/item/bedrock_sword.json
   assets/bedrock_tools_and_armor/models/item/bedrock_upgrade_smithing_template.json
-  assets/bedrock_tools_and_armor/models/item/unstable_bedrock.json
+  assets/bedrock_tools_and_armor/models/item/broken_bedrock.json
   assets/bedrock_tools_and_armor/textures/
   assets/bedrock_tools_and_armor/textures/block/
   assets/bedrock_tools_and_armor/textures/block/unstable_bedrock.png
@@ -228,6 +239,8 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/textures/models/armor/
   assets/bedrock_tools_and_armor/textures/models/armor/bedrockarmortexture__layer_1.png
   assets/bedrock_tools_and_armor/textures/models/armor/bedrockarmortexture__layer_2.png
+  assets/bedrock_tools_and_armor/textures/screens/
+  assets/bedrock_tools_and_armor/textures/screens/clickexplosionjeigui.png
   assets/curios/
   assets/curios/textures/
   assets/curios/textures/slot/
@@ -236,7 +249,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/bedrock_tools_and_armor/
   data/bedrock_tools_and_armor/loot_tables/
   data/bedrock_tools_and_armor/loot_tables/blocks/
-  data/bedrock_tools_and_armor/loot_tables/blocks/unstable_bedrock.json
+  data/bedrock_tools_and_armor/loot_tables/blocks/broken_bedrock.json
   data/bedrock_tools_and_armor/recipes/
   data/bedrock_tools_and_armor/recipes/bedrock_amulet_recipe.json
   data/bedrock_tools_and_armor/recipes/bedrock_axe_smithing.json
@@ -245,11 +258,16 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/bedrock_tools_and_armor/recipes/bedrock_helmet_smithing.json
   data/bedrock_tools_and_armor/recipes/bedrock_hoe_smithing.json
   data/bedrock_tools_and_armor/recipes/bedrock_leggins_smithing.json
+  data/bedrock_tools_and_armor/recipes/bedrock_pebble_click_explosion_recipe.json
+  data/bedrock_tools_and_armor/recipes/bedrock_pebble_crafting.json
   data/bedrock_tools_and_armor/recipes/bedrock_pickaxe_smithing.json
   data/bedrock_tools_and_armor/recipes/bedrock_shovel_smithing.json
   data/bedrock_tools_and_armor/recipes/bedrock_smithing_template_recipe.json
   data/bedrock_tools_and_armor/recipes/bedrock_sword_smithing.json
-  data/bedrock_tools_and_armor/recipes/unstable_bedrock_recipe.json
+  data/bedrock_tools_and_armor/recipes/unstable_bedrock_crafting.json
+  data/bedrock_tools_and_armor/tags/
+  data/bedrock_tools_and_armor/tags/items/
+  data/bedrock_tools_and_armor/tags/items/jei_empty_tag.json
   data/curios/
   data/curios/tags/
   data/curios/tags/items/
@@ -262,6 +280,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/minecraft/tags/blocks/
   data/minecraft/tags/blocks/mineable/
   data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/needs_diamond_tool.json
   data/minecraft/tags/items/
   data/minecraft/tags/items/axes.json
   data/minecraft/tags/items/hoes.json
@@ -274,7 +293,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/bedrocktools/
   net/mcreator/bedrocktools/BedrockToolsAndArmorMod.class
   net/mcreator/bedrocktools/block/
-  net/mcreator/bedrocktools/block/UnstableBedrockBlock.class
+  net/mcreator/bedrocktools/block/BrokenBedrockBlock.class
   net/mcreator/bedrocktools/init/
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBlocks.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBrewingRecipes.class
@@ -283,7 +302,9 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModCuriosSlots.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModItems.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModJeiInformation.class
+  net/mcreator/bedrocktools/init/BedrockToolsAndArmorModJeiPlugin.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModLayerDefinitions.class
+  net/mcreator/bedrocktools/init/BedrockToolsAndArmorModRecipeTypes.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModTabs.class
   net/mcreator/bedrocktools/item/
   net/mcreator/bedrocktools/item/BedrockAmuletItem.class
@@ -305,8 +326,16 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/bedrocktools/item/BedrockSwordItem$1.class
   net/mcreator/bedrocktools/item/BedrockSwordItem.class
   net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem.class
+  net/mcreator/bedrocktools/jei_recipes/
+  net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer.class
+  net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Type.class
+  net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe.class
+  net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipeCategory.class
   net/mcreator/bedrocktools/procedures/
+  net/mcreator/bedrocktools/procedures/BrokenBedrockHarvestConditionProcedure.class
   net/mcreator/bedrocktools/procedures/GetBedrockPebbleProcedureProcedure.class
+  net/mcreator/bedrocktools/procedures/ReadClickExplosionJEIRecipeProcedure$1.class
+  net/mcreator/bedrocktools/procedures/ReadClickExplosionJEIRecipeProcedure.class
   net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure$1.class
   net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure$2.class
   net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure.class

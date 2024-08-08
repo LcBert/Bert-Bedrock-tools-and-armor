@@ -7,7 +7,7 @@
     "item": "minecraft:netherite_axe"
   },
   "addition": {
-    "item": "bedrock_tools_and_armor:bedrock_pebble"
+    "item": "bedrock_tools_and_armor:broken_bedrock"
   },
   "result": {
     "item": "bedrock_tools_and_armor:bedrock_axe"

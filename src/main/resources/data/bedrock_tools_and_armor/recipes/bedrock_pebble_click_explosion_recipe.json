@@ -1,0 +1,15 @@
+{
+  "type": "bedrock_tools_and_armor:click_explosion_jei_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:bedrock"
+    }
+  ],
+  "output": {
+    "item": "bedrock_tools_and_armor:bedrock_pebble",
+    "count": 1
+  }
+}

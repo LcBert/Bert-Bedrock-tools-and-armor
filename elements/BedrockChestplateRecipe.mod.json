@@ -14,7 +14,7 @@
       "value": "Items.NETHERITE_CHESTPLATE"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:BedrockPebble"
+      "value": "CUSTOM:BrokenBedrock"
     },
     "smithingInputTemplateStack": {
       "value": "CUSTOM:BedrockUpgradeSmithingTemplate"

@@ -28,7 +28,7 @@ public class BedrockToolsAndArmorModTabs {
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_ARMOR_LEGGINGS.get());
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_ARMOR_BOOTS.get());
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_PEBBLE.get());
-				tabData.accept(BedrockToolsAndArmorModBlocks.UNSTABLE_BEDROCK.get().asItem());
+				tabData.accept(BedrockToolsAndArmorModBlocks.BROKEN_BEDROCK.get().asItem());
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_UPGRADE_SMITHING_TEMPLATE.get());
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get());
 			})

@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BedrockPebble"
+        "value": "CUSTOM:BrokenBedrock"
       },
       {
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:BedrockPebble"
+        "value": "CUSTOM:BrokenBedrock"
       },
       {
         "value": "Items.NETHERITE_INGOT"
@@ -30,13 +30,13 @@
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:BedrockPebble"
+        "value": "CUSTOM:BrokenBedrock"
       },
       {
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:BedrockPebble"
+        "value": "CUSTOM:BrokenBedrock"
       }
     ],
     "recipeReturnStack": {

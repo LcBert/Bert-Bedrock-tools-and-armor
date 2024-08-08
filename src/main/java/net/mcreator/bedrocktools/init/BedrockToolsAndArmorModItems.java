@@ -37,7 +37,7 @@ public class BedrockToolsAndArmorModItems {
 	public static final RegistryObject<Item> BEDROCK_ARMOR_LEGGINGS = REGISTRY.register("bedrock_armor_leggings", () -> new BedrockArmorItem.Leggings());
 	public static final RegistryObject<Item> BEDROCK_ARMOR_BOOTS = REGISTRY.register("bedrock_armor_boots", () -> new BedrockArmorItem.Boots());
 	public static final RegistryObject<Item> BEDROCK_AMULET = REGISTRY.register("bedrock_amulet", () -> new BedrockAmuletItem());
-	public static final RegistryObject<Item> UNSTABLE_BEDROCK = block(BedrockToolsAndArmorModBlocks.UNSTABLE_BEDROCK);
+	public static final RegistryObject<Item> BROKEN_BEDROCK = block(BedrockToolsAndArmorModBlocks.BROKEN_BEDROCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

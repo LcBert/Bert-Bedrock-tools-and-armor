@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "bedrock_tools_and_armor:broken_bedrock"
+    }
+  },
+  "result": {
+    "item": "bedrock_tools_and_armor:bedrock_pebble",
+    "count": 9
+  }
+}

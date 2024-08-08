@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "bedrock_tools_and_armor:blocks/broken_bedrock",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bedrock_tools_and_armor:broken_bedrock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "clickexplosionjeigui.png",
+    "width": 83,
+    "height": 66,
+    "icon": {
+      "value": "Blocks.TNT"
+    },
+    "craftingtable": {
+      "value": ""
+    },
+    "enableCraftingtable": false,
+    "title": "Click Explosion",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 7,
+        "y": 7,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 7,
+        "y": 43,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 60,
+        "y": 25,
+        "slotid": 0
+      }
+    ]
+  }
+}
