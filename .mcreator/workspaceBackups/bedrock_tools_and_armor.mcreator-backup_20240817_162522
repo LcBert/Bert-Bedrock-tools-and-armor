@@ -22,7 +22,7 @@
           "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_sword.json"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Tools"
     },
     {
       "name": "BedrockPickaxe",
@@ -36,7 +36,7 @@
           "src/main/java/net/mcreator/bedrocktools/item/BedrockPickaxeItem.java"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Tools"
     },
     {
       "name": "BedrockAxe",
@@ -50,7 +50,7 @@
           "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_axe.json"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Tools"
     },
     {
       "name": "BedrockShovel",
@@ -64,7 +64,7 @@
           "src/main/java/net/mcreator/bedrocktools/item/BedrockShovelItem.java"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Tools"
     },
     {
       "name": "BedrockHoe",
@@ -78,7 +78,7 @@
           "src/main/java/net/mcreator/bedrocktools/item/BedrockHoeItem.java"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Tools"
     },
     {
       "name": "BedrockUpgradeSmithingTemplate",
@@ -264,7 +264,7 @@
           "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_armor_leggings.json"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/BedrockArmor"
     },
     {
       "name": "SlownessWithArmor",
@@ -280,10 +280,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Procedure"
+      "path": "~/Item/BedrockArmor"
     },
     {
       "name": "BedrockAmuletRecipe",
@@ -439,7 +443,6 @@
         "files": [
           "src/main/resources/assets/bedrock_tools_and_armor/models/item/bedrock_infuser.json",
           "src/main/resources/assets/bedrock_tools_and_armor/models/block/bedrock_infuser.json",
-          "src/main/java/net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity.java",
           "src/main/java/net/mcreator/bedrocktools/block/BedrockInfuserBlock.java",
           "src/main/resources/assets/bedrock_tools_and_armor/blockstates/bedrock_infuser.json",
           "src/main/resources/data/bedrock_tools_and_armor/loot_tables/blocks/bedrock_infuser.json"
@@ -511,25 +514,6 @@
       "path": "~/Block/BedrockInfuser/JEI Recipe"
     },
     {
-      "name": "BedrockInfuserClearGUI",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrock_infuser_clear_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/bedrocktools/procedures/BedrockInfuserClearGUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Block/BedrockInfuser"
-    },
-    {
       "name": "BedrockPickaxeHarvestCondition",
       "type": "procedure",
       "compiles": true,
@@ -578,14 +562,164 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "BedrockAmuletJEIInformation",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_amulet_jei_information",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI Information"
+    },
+    {
+      "name": "BedrockInfuserJEIInformation",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_infuser_jei_information",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI Information"
+    },
+    {
+      "name": "BedrockInfuserClearInputSlot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_infuser_clear_input_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bedrocktools/procedures/BedrockInfuserClearInputSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Block/BedrockInfuser"
+    },
+    {
+      "name": "BedrockInfuserClearOutputSlot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_infuser_clear_output_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bedrocktools/procedures/BedrockInfuserClearOutputSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Block/BedrockInfuser"
+    },
+    {
+      "name": "Asd",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bedrock_tools_and_armor/recipes/asd.json"
+        ]
+      },
+      "path": "~/Block/BedrockInfuser/JEI Recipe"
+    },
+    {
+      "name": "OpenBedrockInfuserGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_bedrock_infuser_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bedrocktools/procedures/OpenBedrockInfuserGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/BedrockInfuser"
+    },
+    {
+      "name": "BedrockToolsAndArmor",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_tools_and_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bedrocktools/configuration/BedrockToolsAndArmorConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "UpdateSlownessBedrockArmorFromConfigFile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "update_slowness_bedrock_armor_from_config_file",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bedrocktools/procedures/UpdateSlownessBedrockArmorFromConfigFileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Item/BedrockArmor"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "slowness_bedrock_armor",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:BedrockInfuser",
-      "~CUSTOM:BrokenBedrock"
+      "~CUSTOM:BrokenBedrock",
+      "~CUSTOM:BedrockInfuser"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:BedrockInfuser",
@@ -626,12 +760,14 @@
     "en_us": {
       "item.bedrock_tools_and_armor.bedrock_armor_chestplate": "Bedrock Chestplate",
       "item.bedrock_tools_and_armor.bedrock_armor_leggings": "Bedrock Leggings",
+      "jei.bedrock_tools_and_armor.bedrock_amulet_jei_information": "Grant immunity from slowness given from the bedrock amor",
       "item.bedrock_tools_and_armor.bedrock_axe": "Bedrock Axe",
       "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
       "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
       "item.bedrock_tools.bedrock_axe": "Bedrock Axe",
       "item_group.bedrock_tools.bedrock_tools_creative_tab": "Bedrock Tools",
       "item.bedrock_tools.bedrock_harmor_leggings": "Bedrock Leggings",
+      "jei.bedrock_tools_and_armor.bedrock_infuser_jei_information": "Found in the nether in crimson house and warped house",
       "item.bedrock_tools_and_armor.bedrock_pickaxe": "Bedrock Pickaxe",
       "jei.bedrock_tools_and_armor.bedrock_pebble_jei_information": "The main material of bedrock tools.\n\nTo obtain simply right-click obsidian 2 block above  bedrock.",
       "item.bedrock_tools_and_armor.bedrock_shovel": "Bedrock Shovel",
@@ -659,7 +795,16 @@
     "children": [
       {
         "name": "Item",
-        "children": []
+        "children": [
+          {
+            "name": "BedrockArmor",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipe",
@@ -713,7 +858,7 @@
   "workspaceSettings": {
     "modid": "bedrock_tools_and_armor",
     "modName": "Bedrock Tools And Armor",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Powerful bedrock tools and armor",
     "author": "lucab, MCreator",
     "websiteURL": "https://github.com/LcBert/Bert-Bedrock-tools-and-armor",

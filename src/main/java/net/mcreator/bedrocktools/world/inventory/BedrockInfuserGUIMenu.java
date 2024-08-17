@@ -23,6 +23,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.bedrocktools.procedures.ReadBedrockInfuserJEIRecipeProcedure;
+import net.mcreator.bedrocktools.procedures.BedrockInfuserClearOutputSlotProcedure;
 import net.mcreator.bedrocktools.network.BedrockInfuserGUISlotMessage;
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModMenus;
 import net.mcreator.bedrocktools.BedrockToolsAndArmorMod;
@@ -241,6 +242,7 @@ public class BedrockInfuserGUIMenu extends AbstractContainerMenu implements Supp
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+		BedrockInfuserClearOutputSlotProcedure.execute(entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {

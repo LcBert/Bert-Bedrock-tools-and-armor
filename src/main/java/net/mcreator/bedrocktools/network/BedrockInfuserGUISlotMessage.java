@@ -12,7 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.bedrocktools.world.inventory.BedrockInfuserGUIMenu;
-import net.mcreator.bedrocktools.procedures.BedrockInfuserClearGUIProcedure;
+import net.mcreator.bedrocktools.procedures.BedrockInfuserClearInputSlotProcedure;
 import net.mcreator.bedrocktools.BedrockToolsAndArmorMod;
 
 import java.util.function.Supplier;
@@ -72,7 +72,7 @@ public class BedrockInfuserGUISlotMessage {
 			return;
 		if (slot == 0 && changeType == 1) {
 
-			BedrockInfuserClearGUIProcedure.execute(entity);
+			BedrockInfuserClearInputSlotProcedure.execute(entity);
 		}
 	}
 

@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -18,6 +19,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.bedrocktools.network.BedrockToolsAndArmorModVariables;
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModItems;
 
 import javax.annotation.Nullable;
@@ -26,20 +28,20 @@ import javax.annotation.Nullable;
 public class SlownessWithArmorProcedure {
 	@SubscribeEvent
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
-		execute(event, event.getEntity());
+		execute(event, event.getEntity().level(), event.getEntity());
 	}
 
-	public static void execute(Entity entity) {
-		execute(null, entity);
+	public static void execute(LevelAccessor world, Entity entity) {
+		execute(null, world, entity);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity) {
+	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
 		double armor_count = 0;
 		boolean have_amulet = false;
 		if (entity instanceof Player) {
-			if (new Object() {
+			if (BedrockToolsAndArmorModVariables.WorldVariables.get(world).slowness_bedrock_armor && (new Object() {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SURVIVAL;
@@ -59,7 +61,7 @@ public class SlownessWithArmorProcedure {
 					}
 					return false;
 				}
-			}.checkGamemode(entity)) {
+			}.checkGamemode(entity))) {
 				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get())) : false) {
 					have_amulet = true;
 				}
@@ -81,7 +83,7 @@ public class SlownessWithArmorProcedure {
 					}
 					if (armor_count > 0) {
 						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, (int) (armor_count - 1), false, false));
+							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 5, (int) (armor_count - 1), false, false));
 					}
 					armor_count = 0;
 					have_amulet = false;

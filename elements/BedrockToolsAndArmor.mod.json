@@ -1,0 +1,32 @@
+{
+  "_fv": 66,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Bedrock Armor",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Defines whether bedrock armor will grant slowness or not\\nDefault: true",
+            "vardisplay": "slowness",
+            "varname": "slowness",
+            "enablecomment": true,
+            "stringlist": []
+          }
+        ]
+      }
+    ],
+    "file": "bedrock_tools_and_armor-common",
+    "configType": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "bedrock_infuser_jei_recipe_type",
+    "result": {
+      "value": "Blocks.STONE#2"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      }
+    ]
+  }
+}

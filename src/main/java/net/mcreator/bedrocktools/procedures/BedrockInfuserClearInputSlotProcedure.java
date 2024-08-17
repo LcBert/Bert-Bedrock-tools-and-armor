@@ -7,7 +7,7 @@ import net.minecraft.world.entity.Entity;
 import java.util.function.Supplier;
 import java.util.Map;
 
-public class BedrockInfuserClearGUIProcedure {
+public class BedrockInfuserClearInputSlotProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "bedrock_tools_and_armor:bedrock_infuser",
-    "bedrock_tools_and_armor:broken_bedrock"
+    "bedrock_tools_and_armor:broken_bedrock",
+    "bedrock_tools_and_armor:bedrock_infuser"
   ]
 }

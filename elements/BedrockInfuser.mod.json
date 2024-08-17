@@ -154,7 +154,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 5.0,
+    "hardness": 40.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -224,7 +224,7 @@
       "name": "BedrockPickaxeHarvestCondition"
     },
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "BedrockInfuserGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 5,
@@ -235,6 +235,7 @@
       0
     ],
     "inventoryInSlotIDs": [
+      0,
       1,
       2,
       3,

@@ -19,7 +19,7 @@
           },
           "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
-            "name": "BedrockInfuserClearGUI"
+            "name": "BedrockInfuserClearInputSlot"
           },
           "x": 205,
           "y": 71
@@ -151,6 +151,9 @@
     ],
     "onTick": {
       "name": "ReadBedrockInfuserJEIRecipe"
+    },
+    "onClosed": {
+      "name": "BedrockInfuserClearOutputSlot"
     },
     "gridSettings": {
       "sx": 18,

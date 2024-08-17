@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:BedrockAmulet"
+      }
+    ],
+    "information": [
+      "Grant immunity from slowness given from the bedrock amor"
+    ]
+  }
+}

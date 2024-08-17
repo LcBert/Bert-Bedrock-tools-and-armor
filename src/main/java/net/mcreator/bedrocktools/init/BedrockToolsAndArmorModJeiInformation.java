@@ -24,5 +24,7 @@ public class BedrockToolsAndArmorModJeiInformation implements IModPlugin {
 		registration.addIngredientInfo(List.of(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_PEBBLE.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.bedrock_tools_and_armor.bedrock_pebble_jei_information"));
 		registration.addIngredientInfo(List.of(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_UPGRADE_SMITHING_TEMPLATE.get())), VanillaTypes.ITEM_STACK,
 				Component.translatable("jei.bedrock_tools_and_armor.bedrock_smithing_template_jei_information"));
+		registration.addIngredientInfo(List.of(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.bedrock_tools_and_armor.bedrock_amulet_jei_information"));
+		registration.addIngredientInfo(List.of(new ItemStack(BedrockToolsAndArmorModBlocks.BEDROCK_INFUSER.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.bedrock_tools_and_armor.bedrock_infuser_jei_information"));
 	}
 }
