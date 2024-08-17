@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "structure",
+  "definition": {
+    "structure": "bedrock_infuser_crimson_house",
+    "projection": "rigid",
+    "ignoredBlocks": [],
+    "spacing": 20,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "crimson_forest"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 32,
+    "startHeightMax": 105,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

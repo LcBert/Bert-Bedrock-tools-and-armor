@@ -22,5 +22,7 @@ public class BedrockToolsAndArmorModJeiInformation implements IModPlugin {
 	@Override
 	public void registerRecipes(IRecipeRegistration registration) {
 		registration.addIngredientInfo(List.of(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_PEBBLE.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.bedrock_tools_and_armor.bedrock_pebble_jei_information"));
+		registration.addIngredientInfo(List.of(new ItemStack(BedrockToolsAndArmorModItems.BEDROCK_UPGRADE_SMITHING_TEMPLATE.get())), VanillaTypes.ITEM_STACK,
+				Component.translatable("jei.bedrock_tools_and_armor.bedrock_smithing_template_jei_information"));
 	}
 }

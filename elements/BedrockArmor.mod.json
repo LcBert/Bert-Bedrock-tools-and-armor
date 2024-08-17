@@ -56,10 +56,10 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": true,
-    "bodyImmuneToFire": true,
-    "leggingsImmuneToFire": true,
-    "bootsImmuneToFire": true,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
     "helmetGlowCondition": {
       "fixedValue": false
     },

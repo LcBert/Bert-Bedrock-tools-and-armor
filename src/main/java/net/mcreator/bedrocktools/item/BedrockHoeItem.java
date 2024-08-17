@@ -33,7 +33,7 @@ public class BedrockHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 0, 1f, new Item.Properties().fireResistant());
+		}, 0, 1f, new Item.Properties());
 	}
 
 	@Override

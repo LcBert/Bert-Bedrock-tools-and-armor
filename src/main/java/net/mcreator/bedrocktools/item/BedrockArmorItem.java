@@ -58,7 +58,7 @@ public abstract class BedrockArmorItem extends ArmorItem {
 
 	public static class Helmet extends BedrockArmorItem {
 		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties().fireResistant());
+			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
 
 		@Override
@@ -69,7 +69,7 @@ public abstract class BedrockArmorItem extends ArmorItem {
 
 	public static class Chestplate extends BedrockArmorItem {
 		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant());
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -80,7 +80,7 @@ public abstract class BedrockArmorItem extends ArmorItem {
 
 	public static class Leggings extends BedrockArmorItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant());
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
 
 		@Override
@@ -91,7 +91,7 @@ public abstract class BedrockArmorItem extends ArmorItem {
 
 	public static class Boots extends BedrockArmorItem {
 		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties().fireResistant());
+			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
 
 		@Override

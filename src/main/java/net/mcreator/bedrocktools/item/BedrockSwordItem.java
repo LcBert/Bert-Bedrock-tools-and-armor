@@ -33,7 +33,7 @@ public class BedrockSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -1.7f, new Item.Properties().fireResistant());
+		}, 3, -1.7f, new Item.Properties());
 	}
 
 	@Override

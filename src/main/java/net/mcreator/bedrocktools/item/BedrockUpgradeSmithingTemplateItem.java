@@ -12,7 +12,7 @@ import java.util.List;
 
 public class BedrockUpgradeSmithingTemplateItem extends Item {
 	public BedrockUpgradeSmithingTemplateItem() {
-		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class BedrockUpgradeSmithingTemplateItem extends Item {
 		list.add(Component.literal(""));
 		list.add(Component.literal("\u00A77Applies to:"));
 		list.add(Component.literal(" \u00A79Netherite Equipment"));
-		list.add(Component.literal("\u00A77Ingredients"));
+		list.add(Component.literal("\u00A77Ingredients:"));
 		list.add(Component.literal(" \u00A79Bedrock Pebble"));
 	}
 }

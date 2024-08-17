@@ -1,0 +1,163 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "BedrockInfuserClearGUI"
+          },
+          "x": 205,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "curved_arrow_top_right.png",
+          "use1Xscale": false,
+          "x": 171,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "curved_arrow_down_right.png",
+          "use1Xscale": false,
+          "x": 171,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "curved_arrow_top_left.png",
+          "use1Xscale": false,
+          "x": 225,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "curved_arrow_down_left.png",
+          "use1Xscale": false,
+          "x": 225,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bedrock_infuser",
+          "text": {
+            "fixedValue": "Bedrock Infuser"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 42
+        }
+      }
+    ],
+    "onTick": {
+      "name": "ReadBedrockInfuserJEIRecipe"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

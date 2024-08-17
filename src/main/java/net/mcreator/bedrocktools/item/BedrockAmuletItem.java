@@ -8,6 +8,6 @@ import net.minecraft.world.item.Item;
 
 public class BedrockAmuletItem extends Item implements ICurioItem {
 	public BedrockAmuletItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE));
 	}
 }

@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class BedrockPebbleItem extends Item {
 	public BedrockPebbleItem() {
-		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

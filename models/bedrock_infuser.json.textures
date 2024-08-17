@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bedrock_infuser",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

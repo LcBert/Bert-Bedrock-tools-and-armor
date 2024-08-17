@@ -137,7 +137,46 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/bedrocktools/client/gui/BedrockInfuserGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/bedrocktools/client/gui/BedrockInfuserGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/bedrocktools/client/gui/BedrockInfuserGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/bedrocktools/client/gui/BedrockInfuserGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/bedrocktools/client/gui/BedrockInfuserGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
 Conflicting propagated mapping for net/mcreator/bedrocktools/block/BrokenBedrockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I: getAnalogOutputSignal -> m_6782_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z: hasAnalogOutputSignal -> m_7278_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/BedrockInfuserBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/canCraftInDimensions(II)Z from net/minecraft/world/item/crafting/Recipe/canCraftInDimensions(II)Z: canCraftInDimensions -> m_8004_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: getResultItem -> m_8043_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getIngredients()Lnet/minecraft/core/NonNullList; from net/minecraft/world/item/crafting/Recipe/getIngredients()Lnet/minecraft/core/NonNullList;: getIngredients -> m_7527_
@@ -146,9 +185,22 @@ Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickEx
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: assemble -> m_5874_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getType()Lnet/minecraft/world/item/crafting/RecipeType; from net/minecraft/world/item/crafting/Recipe/getType()Lnet/minecraft/world/item/crafting/RecipeType;: getType -> m_6671_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer; from net/minecraft/world/item/crafting/Recipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;: getSerializer -> m_7707_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/canCraftInDimensions(II)Z from net/minecraft/world/item/crafting/Recipe/canCraftInDimensions(II)Z: canCraftInDimensions -> m_8004_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: getResultItem -> m_8043_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/getIngredients()Lnet/minecraft/core/NonNullList; from net/minecraft/world/item/crafting/Recipe/getIngredients()Lnet/minecraft/core/NonNullList;: getIngredients -> m_7527_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/matches(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Z from net/minecraft/world/item/crafting/Recipe/matches(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Z: matches -> m_5818_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/getId()Lnet/minecraft/resources/ResourceLocation; from net/minecraft/world/item/crafting/Recipe/getId()Lnet/minecraft/resources/ResourceLocation;: getId -> m_6423_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: assemble -> m_5874_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/getType()Lnet/minecraft/world/item/crafting/RecipeType; from net/minecraft/world/item/crafting/Recipe/getType()Lnet/minecraft/world/item/crafting/RecipeType;: getType -> m_6671_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer; from net/minecraft/world/item/crafting/Recipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;: getSerializer -> m_7707_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe$Serializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe;: fromJson -> m_6729_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe$Serializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe;: fromNetwork -> m_8005_
+Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe$Serializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V from net/minecraft/world/item/crafting/RecipeSerializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V: toNetwork -> m_6178_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe;: fromJson -> m_6729_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe;: fromNetwork -> m_8005_
 Conflicting propagated mapping for net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V from net/minecraft/world/item/crafting/RecipeSerializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V: toNetwork -> m_6178_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -157,7 +209,6 @@ Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorIt
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
-Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
@@ -189,6 +240,16 @@ Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockSwordIt
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/bedrocktools/item/BedrockSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7993_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Conflicting propagated mapping for net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$1/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
+Conflicting propagated mapping for net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$1/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Adding extras
 Sorting
 Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\reobfJar\output.jar
@@ -198,12 +259,16 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/
   assets/bedrock_tools_and_armor/
   assets/bedrock_tools_and_armor/blockstates/
+  assets/bedrock_tools_and_armor/blockstates/bedrock_infuser.json
   assets/bedrock_tools_and_armor/blockstates/broken_bedrock.json
   assets/bedrock_tools_and_armor/lang/
   assets/bedrock_tools_and_armor/lang/en_us.json
   assets/bedrock_tools_and_armor/models/
   assets/bedrock_tools_and_armor/models/block/
+  assets/bedrock_tools_and_armor/models/block/bedrock_infuser.json
   assets/bedrock_tools_and_armor/models/block/broken_bedrock.json
+  assets/bedrock_tools_and_armor/models/custom/
+  assets/bedrock_tools_and_armor/models/custom/bedrock_infuser.json
   assets/bedrock_tools_and_armor/models/item/
   assets/bedrock_tools_and_armor/models/item/bedrock_amulet.json
   assets/bedrock_tools_and_armor/models/item/bedrock_armor_boots.json
@@ -212,6 +277,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/models/item/bedrock_armor_leggings.json
   assets/bedrock_tools_and_armor/models/item/bedrock_axe.json
   assets/bedrock_tools_and_armor/models/item/bedrock_hoe.json
+  assets/bedrock_tools_and_armor/models/item/bedrock_infuser.json
   assets/bedrock_tools_and_armor/models/item/bedrock_pebble.json
   assets/bedrock_tools_and_armor/models/item/bedrock_pickaxe.json
   assets/bedrock_tools_and_armor/models/item/bedrock_shovel.json
@@ -220,6 +286,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/models/item/broken_bedrock.json
   assets/bedrock_tools_and_armor/textures/
   assets/bedrock_tools_and_armor/textures/block/
+  assets/bedrock_tools_and_armor/textures/block/bedrock_infuser.png
   assets/bedrock_tools_and_armor/textures/block/unstable_bedrock.png
   assets/bedrock_tools_and_armor/textures/item/
   assets/bedrock_tools_and_armor/textures/item/bedrock_amulet.png
@@ -240,15 +307,18 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   assets/bedrock_tools_and_armor/textures/models/armor/bedrockarmortexture__layer_1.png
   assets/bedrock_tools_and_armor/textures/models/armor/bedrockarmortexture__layer_2.png
   assets/bedrock_tools_and_armor/textures/screens/
+  assets/bedrock_tools_and_armor/textures/screens/bedrock_infuser_gui.png
+  assets/bedrock_tools_and_armor/textures/screens/bedrock_infuser_jei_recipe.png
   assets/bedrock_tools_and_armor/textures/screens/clickexplosionjeigui.png
-  assets/curios/
-  assets/curios/textures/
-  assets/curios/textures/slot/
-  assets/curios/textures/slot/bedrock_amulet_bauble_slot_icon.png
+  assets/bedrock_tools_and_armor/textures/screens/curved_arrow_down_left.png
+  assets/bedrock_tools_and_armor/textures/screens/curved_arrow_down_right.png
+  assets/bedrock_tools_and_armor/textures/screens/curved_arrow_top_left.png
+  assets/bedrock_tools_and_armor/textures/screens/curved_arrow_top_right.png
   data/
   data/bedrock_tools_and_armor/
   data/bedrock_tools_and_armor/loot_tables/
   data/bedrock_tools_and_armor/loot_tables/blocks/
+  data/bedrock_tools_and_armor/loot_tables/blocks/bedrock_infuser.json
   data/bedrock_tools_and_armor/loot_tables/blocks/broken_bedrock.json
   data/bedrock_tools_and_armor/recipes/
   data/bedrock_tools_and_armor/recipes/bedrock_amulet_recipe.json
@@ -264,10 +334,23 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/bedrock_tools_and_armor/recipes/bedrock_shovel_smithing.json
   data/bedrock_tools_and_armor/recipes/bedrock_smithing_template_recipe.json
   data/bedrock_tools_and_armor/recipes/bedrock_sword_smithing.json
-  data/bedrock_tools_and_armor/recipes/unstable_bedrock_crafting.json
+  data/bedrock_tools_and_armor/recipes/broken_bedrock_crafting.json
+  data/bedrock_tools_and_armor/structures/
+  data/bedrock_tools_and_armor/structures/bedrock_infuser_crimson_house.nbt
+  data/bedrock_tools_and_armor/structures/bedrock_infuser_warped_house.nbt
   data/bedrock_tools_and_armor/tags/
   data/bedrock_tools_and_armor/tags/items/
   data/bedrock_tools_and_armor/tags/items/jei_empty_tag.json
+  data/bedrock_tools_and_armor/worldgen/
+  data/bedrock_tools_and_armor/worldgen/structure/
+  data/bedrock_tools_and_armor/worldgen/structure/bedrock_infuser_crimson_house.json
+  data/bedrock_tools_and_armor/worldgen/structure/bedrock_infuser_warped_house.json
+  data/bedrock_tools_and_armor/worldgen/structure_set/
+  data/bedrock_tools_and_armor/worldgen/structure_set/bedrock_infuser_crimson_house.json
+  data/bedrock_tools_and_armor/worldgen/structure_set/bedrock_infuser_warped_house.json
+  data/bedrock_tools_and_armor/worldgen/template_pool/
+  data/bedrock_tools_and_armor/worldgen/template_pool/bedrock_infuser_crimson_house.json
+  data/bedrock_tools_and_armor/worldgen/template_pool/bedrock_infuser_warped_house.json
   data/curios/
   data/curios/tags/
   data/curios/tags/items/
@@ -275,7 +358,7 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   data/minecraft/
   data/minecraft/loot_tables/
   data/minecraft/loot_tables/chests/
-  data/minecraft/loot_tables/chests/ancient_city.json
+  data/minecraft/loot_tables/chests/end_city_treasure.json
   data/minecraft/tags/
   data/minecraft/tags/blocks/
   data/minecraft/tags/blocks/mineable/
@@ -293,8 +376,16 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/bedrocktools/
   net/mcreator/bedrocktools/BedrockToolsAndArmorMod.class
   net/mcreator/bedrocktools/block/
+  net/mcreator/bedrocktools/block/BedrockInfuserBlock$1.class
+  net/mcreator/bedrocktools/block/BedrockInfuserBlock.class
   net/mcreator/bedrocktools/block/BrokenBedrockBlock.class
+  net/mcreator/bedrocktools/block/entity/
+  net/mcreator/bedrocktools/block/entity/BedrockInfuserBlockEntity.class
+  net/mcreator/bedrocktools/client/
+  net/mcreator/bedrocktools/client/gui/
+  net/mcreator/bedrocktools/client/gui/BedrockInfuserGUIScreen.class
   net/mcreator/bedrocktools/init/
+  net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBlockEntities.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBlocks.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModBrewingRecipes.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModCuriosProperties.class
@@ -304,7 +395,9 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModJeiInformation.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModJeiPlugin.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModLayerDefinitions.class
+  net/mcreator/bedrocktools/init/BedrockToolsAndArmorModMenus.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModRecipeTypes.class
+  net/mcreator/bedrocktools/init/BedrockToolsAndArmorModScreens.class
   net/mcreator/bedrocktools/init/BedrockToolsAndArmorModTabs.class
   net/mcreator/bedrocktools/item/
   net/mcreator/bedrocktools/item/BedrockAmuletItem.class
@@ -327,16 +420,32 @@ Writing Output: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools
   net/mcreator/bedrocktools/item/BedrockSwordItem.class
   net/mcreator/bedrocktools/item/BedrockUpgradeSmithingTemplateItem.class
   net/mcreator/bedrocktools/jei_recipes/
+  net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe$Serializer.class
+  net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe$Type.class
+  net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipe.class
+  net/mcreator/bedrocktools/jei_recipes/BedrockInfuserJEIRecipeTypeRecipeCategory.class
   net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Serializer.class
   net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe$Type.class
   net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipe.class
   net/mcreator/bedrocktools/jei_recipes/ClickExplosionJEIRecipeRecipeCategory.class
+  net/mcreator/bedrocktools/network/
+  net/mcreator/bedrocktools/network/BedrockInfuserGUISlotMessage.class
   net/mcreator/bedrocktools/procedures/
-  net/mcreator/bedrocktools/procedures/BrokenBedrockHarvestConditionProcedure.class
-  net/mcreator/bedrocktools/procedures/GetBedrockPebbleProcedureProcedure.class
+  net/mcreator/bedrocktools/procedures/BedrockInfuserClearGUIProcedure.class
+  net/mcreator/bedrocktools/procedures/BedrockPickaxeHarvestConditionProcedure.class
+  net/mcreator/bedrocktools/procedures/ReadBedrockInfuserJEIRecipeProcedure$1.class
+  net/mcreator/bedrocktools/procedures/ReadBedrockInfuserJEIRecipeProcedure.class
   net/mcreator/bedrocktools/procedures/ReadClickExplosionJEIRecipeProcedure$1.class
   net/mcreator/bedrocktools/procedures/ReadClickExplosionJEIRecipeProcedure.class
   net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure$1.class
   net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure$2.class
   net/mcreator/bedrocktools/procedures/SlownessWithArmorProcedure.class
+  net/mcreator/bedrocktools/world/
+  net/mcreator/bedrocktools/world/inventory/
+  net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$1.class
+  net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$2.class
+  net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$3.class
+  net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$4.class
+  net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu$5.class
+  net/mcreator/bedrocktools/world/inventory/BedrockInfuserGUIMenu.class
   pack.mcmeta

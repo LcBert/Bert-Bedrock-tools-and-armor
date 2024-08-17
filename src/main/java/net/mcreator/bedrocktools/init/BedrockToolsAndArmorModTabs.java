@@ -31,6 +31,7 @@ public class BedrockToolsAndArmorModTabs {
 				tabData.accept(BedrockToolsAndArmorModBlocks.BROKEN_BEDROCK.get().asItem());
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_UPGRADE_SMITHING_TEMPLATE.get());
 				tabData.accept(BedrockToolsAndArmorModItems.BEDROCK_AMULET.get());
+				tabData.accept(BedrockToolsAndArmorModBlocks.BEDROCK_INFUSER.get().asItem());
 			})
 
 			.build());

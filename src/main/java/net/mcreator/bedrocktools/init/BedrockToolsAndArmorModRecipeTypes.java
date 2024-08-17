@@ -11,6 +11,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 
 import net.mcreator.bedrocktools.jei_recipes.ClickExplosionJEIRecipeRecipe;
+import net.mcreator.bedrocktools.jei_recipes.BedrockInfuserJEIRecipeTypeRecipe;
 import net.mcreator.bedrocktools.BedrockToolsAndArmorMod;
 
 @Mod.EventBusSubscriber(modid = BedrockToolsAndArmorMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -23,6 +24,7 @@ public class BedrockToolsAndArmorModRecipeTypes {
 		event.enqueueWork(() -> {
 			SERIALIZERS.register(bus);
 			SERIALIZERS.register("click_explosion_jei_recipe", () -> ClickExplosionJEIRecipeRecipe.Serializer.INSTANCE);
+			SERIALIZERS.register("bedrock_infuser_jei_recipe_type", () -> BedrockInfuserJEIRecipeTypeRecipe.Serializer.INSTANCE);
 		});
 	}
 }

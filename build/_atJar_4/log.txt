@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\lucab\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.12+7\bin\java.exe
+Arguments: '--inJar, C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\fg_cache\net\minecraftforge\forge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar, --outJar, C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\fg_cache\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\lucab\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
+Working directory: C:\Users\lucab\Documents\Github\Minecraft Mod\Bert-Bedrock-tools-and-armor\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

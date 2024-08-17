@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:BedrockUpgradeSmithingTemplate"
+      }
+    ],
+    "information": [
+      "Found in the end city.",
+      "",
+      "Used to upgrade tools into the bedrock variant."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "bedrock_tools_and_armor:custom/bedrock_infuser",
+  "textures": {
+    "all": "bedrock_tools_and_armor:block/bedrock_infuser",
+    "particle": "bedrock_tools_and_armor:block/bedrock_infuser",
+    "0": "bedrock_tools_and_armor:block/bedrock_infuser",
+    "missing": "bedrock_tools_and_armor:block/"
+  },
+  "render_type": "cutout_mipped"
+}

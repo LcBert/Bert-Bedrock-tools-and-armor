@@ -1,0 +1,17 @@
+{
+  "name": "bedrock_tools_and_armor:bedrock_infuser_warped_house",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "bedrock_tools_and_armor:bedrock_infuser_warped_house",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

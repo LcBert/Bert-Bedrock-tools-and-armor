@@ -6,7 +6,7 @@
     "texture": "bedrock_amulet",
     "customModelName": "Normal",
     "name": "Bedrock Amulet",
-    "rarity": "EPIC",
+    "rarity": "RARE",
     "slotType": "CHARM",
     "baubleModel": "Default",
     "baubleModelTexture": "",
@@ -22,7 +22,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

@@ -11,7 +11,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.bedrocktools.procedures.BrokenBedrockHarvestConditionProcedure;
+import net.mcreator.bedrocktools.procedures.BedrockPickaxeHarvestConditionProcedure;
 
 public class BrokenBedrockBlock extends Block {
 	public BrokenBedrockBlock() {
@@ -25,6 +25,6 @@ public class BrokenBedrockBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		return super.canHarvestBlock(state, world, pos, player) && BrokenBedrockHarvestConditionProcedure.execute(player);
+		return super.canHarvestBlock(state, world, pos, player) && BedrockPickaxeHarvestConditionProcedure.execute(player);
 	}
 }

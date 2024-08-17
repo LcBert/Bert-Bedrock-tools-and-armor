@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      },
+      {
+        "value": "CUSTOM:BedrockPebble"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrokenBedrock"
+    },
+    "name": "broken_bedrock_crafting",
+    "namespace": "mod"
+  }
+}

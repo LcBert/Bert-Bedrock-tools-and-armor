@@ -26,7 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": true,

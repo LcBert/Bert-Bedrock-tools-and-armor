@@ -33,7 +33,7 @@ public class BedrockAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties().fireResistant());
+		}, 1, -3f, new Item.Properties());
 	}
 
 	@Override

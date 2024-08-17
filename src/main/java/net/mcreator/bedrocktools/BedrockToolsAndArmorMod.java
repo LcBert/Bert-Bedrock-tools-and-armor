@@ -18,8 +18,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModTabs;
+import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModMenus;
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModItems;
 import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModBlocks;
+import net.mcreator.bedrocktools.init.BedrockToolsAndArmorModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,11 +44,12 @@ public class BedrockToolsAndArmorMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		BedrockToolsAndArmorModBlocks.REGISTRY.register(bus);
-
+		BedrockToolsAndArmorModBlockEntities.REGISTRY.register(bus);
 		BedrockToolsAndArmorModItems.REGISTRY.register(bus);
 
 		BedrockToolsAndArmorModTabs.REGISTRY.register(bus);
 
+		BedrockToolsAndArmorModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

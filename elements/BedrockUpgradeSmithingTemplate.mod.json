@@ -23,7 +23,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -34,7 +34,7 @@
         "",
         "§7Applies to:",
         " §9Netherite Equipment",
-        "§7Ingredients",
+        "§7Ingredients:",
         " §9Bedrock Pebble"
       ]
     },
