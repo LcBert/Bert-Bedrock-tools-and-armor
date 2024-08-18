@@ -23,6 +23,6 @@ public class BedrockUpgradeSmithingTemplateItem extends Item {
 		list.add(Component.literal("\u00A77Applies to:"));
 		list.add(Component.literal(" \u00A79Netherite Equipment"));
 		list.add(Component.literal("\u00A77Ingredients:"));
-		list.add(Component.literal(" \u00A79Bedrock Pebble"));
+		list.add(Component.literal(" \u00A79Broken Bedrock"));
 	}
 }

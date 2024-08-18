@@ -1,4 +1,1 @@
-Added others jei information for item
-Modified bedrock infuser gui usability: now the block is no longer an block entity
-Added new config file that defines whether bedrock armor will grant slowness or not (Default: true)
-Little changes of bedrock armor item texture
+Added item tag (bedrock_tools_and_armor:can_break_bedrock_things) so you can add tags to items to break bedrock things in the mod
