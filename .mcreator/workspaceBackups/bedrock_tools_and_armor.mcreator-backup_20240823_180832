@@ -704,6 +704,9 @@
   ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:mod:can_break_bedrock_things": [
+      "CUSTOM:BedrockPickaxe"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:BrokenBedrock",
       "~CUSTOM:BedrockInfuser"
@@ -726,9 +729,6 @@
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:BedrockShovel"
-    ],
-    "ITEMS:mod:can_break_broken_bedrock": [
-      "CUSTOM:BedrockPickaxe"
     ]
   },
   "tab_element_order": {
@@ -749,8 +749,8 @@
   "language_map": {
     "en_us": {
       "item.bedrock_tools_and_armor.bedrock_armor_chestplate": "Bedrock Chestplate",
-      "jei.bedrock_tools_and_armor.bedrock_amulet_jei_information": "Grant immunity from slowness given from the bedrock amor",
       "item.bedrock_tools_and_armor.bedrock_armor_leggings": "Bedrock Leggings",
+      "jei.bedrock_tools_and_armor.bedrock_amulet_jei_information": "Grant immunity from slowness given from the bedrock armor",
       "item.bedrock_tools_and_armor.bedrock_axe": "Bedrock Axe",
       "item.bedrock_tools.bedrock_harmor_boots": "Bedrock Boots",
       "item.bedrock_tools.bedrock_harmor_helmet": "Bedrock Helmet",
@@ -848,7 +848,7 @@
   "workspaceSettings": {
     "modid": "bedrock_tools_and_armor",
     "modName": "Bedrock Tools And Armor",
-    "version": "2.1",
+    "version": "2.2",
     "description": "Powerful bedrock tools and armor",
     "author": "lucab, MCreator",
     "websiteURL": "https://github.com/LcBert/Bert-Bedrock-tools-and-armor",
