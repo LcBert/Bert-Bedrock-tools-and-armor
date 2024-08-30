@@ -1,1 +1,0 @@
-Added item tag (bedrock_tools_and_armor:can_break_bedrock_things) so you can add tags to items to break bedrock things in the mod
